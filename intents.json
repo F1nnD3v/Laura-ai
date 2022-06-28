@@ -1,0 +1,28 @@
+{"intents": [
+        {"tag": "Olá",
+         "patterns": ["Hi", "Olá, como estás?", "Olá", "Hello", "Bom dia", "Mekié"],
+         "responses": ["Hello!", "É bom ver te de novo!", "Olá, como posso ajudar?", "Bem vindo de volta!"],
+         "context_set": ""
+        },
+        {"tag": "Adeus",
+         "patterns": ["Adeus", "Até á próxima", "Tem um bom dia!", "bai bai"],
+         "responses": ["Adeus :D", "Até depois.", "Bai baiii!"],
+         "context_set": ""
+        },
+        {"tag": "Idade",
+         "patterns": ["Quantos anos tens?", "Que idade tens Laura?", "Qual a minha idade?", "Idade?"],
+         "responses": ["Eu sou a Laura, nasci no dia 23/06/2022, tenho x anos", "O Finn/F1nn tem 18 anos."],
+         "context_set": ""
+        },
+        {"tag": "Nome",
+         "patterns": ["Qual é o meu nome?", "Como eu gosto que as pessoas me chamem", "Qual o teu nome assistente?"],
+         "responses": ["O teu nome é Ricardo a.k.a F1nn/Finn", "Gostas que as pessoas te chamem de F1nn/Finn", "Eu sou a Laura, a tua assistente pessoal :D"],
+         "context_set": ""
+        },
+        {"tag": "Aniversários",
+         "patterns": ["Quem faz anos hoje?", "Alguem faz anos hoje?", "Quais são os próximos aniversários"],
+         "responses": ["Ninguém faz anos hoje", "Existe uma pessoa que faz anos hoje, deseja lhe os parabéns, pessoa: ", "Existem algumas pessoas que fazem anos hoje, deseja lhes os parabéns, pessoas: "],
+         "context_set": ""
+        }
+   ]
+}
